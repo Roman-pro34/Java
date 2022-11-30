@@ -1,0 +1,26 @@
+package Animals;
+
+public class Cat {
+    String nameCat;
+    int ageCat;
+    String breedCat;
+    int weightCat;
+
+    public Cat(String nameCat, int ageCat, String breedCat, int weightCat) {
+        this.nameCat = nameCat;
+        this.ageCat = ageCat;
+        this.breedCat = breedCat;
+        this.weightCat = weightCat;
+
+    }
+    public void aboutMeCat() {
+        System.out.println("Cat:) ");
+        System.out.println("Cat name: " + this.nameCat);
+        System.out.println("Cat age: " + this.ageCat);
+        System.out.println("Cat breed: " + this.breedCat);
+        System.out.println("Cat weight: " + this.weightCat);
+
+
+
+    }
+}
