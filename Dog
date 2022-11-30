@@ -1,0 +1,24 @@
+package Animals;
+
+public class Dog {
+    String nameDog;
+    int ageDog;
+    String breedDog;
+    int weightDog;
+
+    public Dog(String nameDog, int ageDog, String breedDog, int weightDog) {
+        this.nameDog = nameDog;
+        this.ageDog = ageDog;
+        this.breedDog = breedDog;
+        this.weightDog = weightDog;
+
+
+    }
+    public void aboutMeDog() {
+        System.out.println("Dog:) ");
+        System.out.println("Dog name: " + this.nameDog);
+        System.out.println("Dog age: " + this.ageDog);
+        System.out.println("Dog breed: " + this.breedDog);
+        System.out.println("Dog weight: " + this.weightDog);
+    }
+}
