@@ -1,0 +1,18 @@
+package Animals;
+
+public class Main {
+    public static void main(String[] args) {
+        Cat catOne = new Cat("Jack", 4, "maine coon", 12);
+        catOne.aboutMeCat();
+        Cat catTwo = new Cat("Kokos", 7, "scottish fold cat", 18);
+        catOne.aboutMeCat();
+
+        Dog dogOne = new Dog("Sony", 7, "pomeranian", 14);
+        dogOne.aboutMeDog();
+        Dog dogTwo = new Dog("Kristian", 5, "American Shepherd", 27);
+        dogTwo.aboutMeDog();
+
+
+
+    }
+}
